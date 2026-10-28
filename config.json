@@ -26,7 +26,15 @@
   },
 
   "topics": {
-    "AI video": "\\bvideos?\\b|animat|avatar|lip ?sync|seedance|\\bveo\\b|\\bsora\\b|kling|hailuo|remotion|hyperframes"
+    "AI video": "\\bvideos?\\b|animat|avatar|lip ?sync|seedance|\\bveo\\b|\\bsora\\b|kling|hailuo|remotion|hyperframes",
+    "AI image": "\\b(?:images?|photos?|pictures?|portraits?|headshots?|upscal\\w*|midjourney|flux|stable diffusion|sdxl)\\b|图像|图片|生图|绘画|修图",
+    "大模型": "\\b(?:llms?|large language models?|foundation models?)\\b|\\b(?:gpt|claude|gemini|qwen|deepseek|llama|mistral|kimi|minimax|glm|grok)(?:\\b|\\d)|大模型|语言模型",
+    "Grok / Grok Bot": "\\bgrok(?:[-_ ]?bots?)?(?:\\b|\\d)|\\bxai\\b|\\bx\\.ai\\b",
+    "AI tools": "\\b(?:tools?|toolkits?|utilities|apps?|saas)\\b|工具|应用",
+    "AI audio": "\\b(?:audio|voices?|speech|tts|asr|music|transcri\\w*|dubbing|podcasts?|elevenlabs|suno|udio)\\b|语音|音频|音乐|配音|转录",
+    "AI coding": "\\b(?:code|coding|codegen|copilot|cursor|vibe[- ]?coding)\\b|编程|代码",
+    "AI agents": "\\b(?:agents?|agentic|workflows?|automation)\\b|智能体|工作流|自动化",
+    "MCP / Skills": "\\b(?:mcp|skills?|model context protocol)\\b|模型上下文协议|技能"
   },
 
   "known_terms": ["claude code", "remotion"],
